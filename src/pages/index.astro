@@ -1,19 +1,18 @@
 ---
-
+const pageTitle = "Página de inicio";
 ---
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Mi sitio se actualizara automaticamnete</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
 		<h1>Astro</h1>
 		<h1>Mi sitio astro actualizado</h1>
-		<a href="/">Inicio</a>
+		<a href="/">{pageTitle}</a>
         <a href="/about/">Sobre mi</a>
         <a href="/blog/">Blog</a>
 	</body>
